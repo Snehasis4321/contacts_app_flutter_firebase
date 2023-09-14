@@ -27,6 +27,10 @@ class AuthService {
   // logout the user
   Future logout() async {
     await FirebaseAuth.instance.signOut();
+    // logout from google if logged in with google
+    if (await GoogleSignIn().isSignedIn()) {
+      await GoogleSignIn().signOut();
+    }
   }
 
   // check whether the user is sign in or not
