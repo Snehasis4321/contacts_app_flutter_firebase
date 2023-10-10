@@ -19,7 +19,7 @@ the repository containes the full code to create a contact app in flutter using 
 
 ## Important for google auth
 
-to view sha 1/ sha256 key for google auth use this command to 
+to view sha1 or sha256 key for google auth use this command to 
 
 visit .android folder and then debug.keystore is there run this otherwise generate a debug key and run this command to show sha1 key
 
