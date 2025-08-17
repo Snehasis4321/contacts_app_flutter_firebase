@@ -28,6 +28,8 @@ Cmd to view
 keytool -list -v -keystore debug.keystore -alias androiddebugkey
 ```
 
+default pass word is: **android** 
+
 cmd to create new key store file 
 
 Run this to  create first then run above command
